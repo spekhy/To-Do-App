@@ -56,6 +56,10 @@
 .svg-delete {
     height: 30px;
     width: 30px;
-    display: flexbox;
-    justify-content: flex-end;
+    display: flex;
+}
+
+#svg-delete-button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
 }
