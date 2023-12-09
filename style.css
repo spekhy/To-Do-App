@@ -2,6 +2,11 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#app {
+    display: flexbox;
+    justify-content: flex-start;
+}
+
 #but-reset {
     background-color: #0075FF;
     border: none;
