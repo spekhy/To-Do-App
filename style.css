@@ -52,11 +52,13 @@
     height: 20px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
 }
 .svg-delete {
     height: 30px;
     width: 30px;
-    display: flex;
+    margin-top: -5px;
 }
 
 #svg-delete-button {
