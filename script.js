@@ -1,13 +1,20 @@
 const bigAddButton = document.getElementById('but-add-note').addEventListener('click', addNote)
-const resetButton = document.getElementById('but-reset').addEventListener('click', resetNotes)
-const colorChangeButton = document.getElementById('but-color-change').addEventListener('click', colorChange)
+const resetButton = document.getElementById('but-reset')
+const colorChangeButton = document.getElementById('but-color-change')
 const deleteThisNoteButton = document.getElementById('svg-delete-button')
-const textArea = document.getElementById('note')
-const mainApp = document.getElementById('app')
+const notesList = document.getElementById('notes')
+const inNote = document.getElementById('first-note')
 
 function addNote() {
     let newNote = document.createElement('div')
-    newNote.id = 'first-note'
+    newNote.className = 'first-note-cl'
+    notesList.appendChild(newNote)
 
-    mainApp.appendChild(newNote)
+    let newNoteBlueTopPart = document.createElement('div')
+    newNoteBlueTopPart.className = 'blue-top-cl'
+    newNote.appendChild(newNoteBlueTopPart)
+
+    let newNoteInputSpace = document.createElement('div')
+    newNoteInputSpace.className = 'note-cl'
+    newNote.appendChild(newNoteInputSpace)
 }
