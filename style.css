@@ -48,11 +48,10 @@ body {
 
 .note-cl {
     background-color: #9C9C9C;
-    width: 25%;
+    width: 100%;
     height: fit-content;
     min-height: 200px;
     border-bottom-right-radius: 9px;
-    padding: 10px;
     border-bottom-left-radius: 9px;
 }
 
