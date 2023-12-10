@@ -17,4 +17,13 @@ function addNote() {
     let newNoteInputSpace = document.createElement('div')
     newNoteInputSpace.className = 'note-cl'
     newNote.appendChild(newNoteInputSpace)
+
+    let newNoteDeleteButton = document.createElement('button')
+    newNoteDeleteButton.className = 'svg-delete-button-cl'
+    newNoteBlueTopPart.appendChild(newNoteDeleteButton)
+
+    let newNoteDeleteButtonSvg = document.createElement('img')
+    newNoteDeleteButtonSvg.src = './assets/add-note.svg'
+    newNoteDeleteButtonSvg.className = 'svg-delete'
+    newNoteDeleteButton.appendChild(newNoteDeleteButtonSvg)
 }
