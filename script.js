@@ -26,4 +26,8 @@ function addNote() {
     newNoteDeleteButtonSvg.src = './assets/add-note.svg'
     newNoteDeleteButtonSvg.className = 'svg-delete'
     newNoteDeleteButton.appendChild(newNoteDeleteButtonSvg)
+
+    newNoteDeleteButton.addEventListener('click', function() {
+        notesList.removeChild(newNote)
+    })
 }
