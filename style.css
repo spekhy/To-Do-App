@@ -17,6 +17,7 @@ body {
     bottom: 25px;
     right: 120px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #but-add-note {
@@ -29,6 +30,7 @@ body {
     bottom: 25px;
     right: 25px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #but-color-change {
@@ -41,6 +43,7 @@ body {
     bottom: 120px;
     right: 25px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .note-cl {
@@ -86,4 +89,5 @@ body {
     background-color: rgba(255, 255, 255, 0);
     border: none;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
