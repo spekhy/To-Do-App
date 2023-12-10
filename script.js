@@ -27,7 +27,7 @@ function addNote() {
     newNoteDeleteButtonSvg.className = 'svg-delete'
     newNoteDeleteButton.appendChild(newNoteDeleteButtonSvg)
 
-    newNoteDeleteButton.addEventListener('click', function() { //toto odstrani 
+    newNoteDeleteButton.addEventListener('click', function() { //toto odstrani note na ktorom clovek dal X
         notesList.removeChild(newNote)
     })
 }
