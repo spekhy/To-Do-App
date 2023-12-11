@@ -6,6 +6,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: fit-content;
+    overflow: auto;
+
 }
 
 #but-reset {
@@ -59,6 +61,7 @@ body {
     outline: none;
     font-size: 110%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: auto;
 }
 
 .note-cl:focus {
@@ -68,17 +71,12 @@ body {
 }
 
 .first-note-cl {
-    background-color: #9C9C9C;
     width: 24%;
-    min-height: 200px;
-    height: fit-content;
     margin: 10px;
-    border-bottom-right-radius: 9px;
-    border-bottom-left-radius: 9px;
-    border-top-right-radius: 9px;
-    border-top-left-radius: 9px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 
 .blue-top-cl {
