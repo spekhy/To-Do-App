@@ -5,9 +5,6 @@ body {
 #notes {
     display: flex;
     flex-wrap: wrap;
-    height: fit-content;
-    overflow: auto;
-
 }
 
 #but-reset {
@@ -16,7 +13,7 @@ body {
     border-radius: 30px;
     height: 50px;
     width: 50px;
-    position: absolute;
+    position: fixed;
     bottom: 25px;
     right: 120px;
     cursor: pointer;
@@ -29,7 +26,7 @@ body {
     border-radius: 45px;
     height: 85px;
     width: 85px;
-    position: absolute;
+    position: fixed;
     bottom: 25px;
     right: 25px;
     cursor: pointer;
@@ -42,7 +39,7 @@ body {
     border-radius: 30px;
     height: 50px;
     width: 50px;
-    position: absolute;
+    position: fixed;
     bottom: 120px;
     right: 25px;
     cursor: pointer;
@@ -54,14 +51,14 @@ body {
     padding: 10px;
     color: rgb(227, 226, 226);
     min-height: 200px;
-    height: fit-content;
+    height: auto;
     border-bottom-right-radius: 9px;
     border-bottom-left-radius: 9px;
     border: none;
     outline: none;
     font-size: 110%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    overflow: auto;
+    overflow: visible;
 }
 
 .note-cl:focus {
@@ -72,11 +69,9 @@ body {
 
 .first-note-cl {
     width: 24%;
-    margin: 10px;
-    height: fit-content;
+    margin: 5px;
     display: flex;
     flex-direction: column;
-    overflow: auto;
 }
 
 .blue-top-cl {
