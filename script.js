@@ -14,7 +14,7 @@ function addNote() {
     newNoteBlueTopPart.className = 'blue-top-cl'
     newNote.appendChild(newNoteBlueTopPart)
 
-    let newNoteInputSpace = document.createElement('div') //toto prida cast kde sa bude dat pisat poznamky
+    let newNoteInputSpace = document.createElement('textarea') //toto prida cast kde sa bude dat pisat poznamky
     newNoteInputSpace.className = 'note-cl'
     newNote.appendChild(newNoteInputSpace)
 
