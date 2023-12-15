@@ -51,14 +51,15 @@ body {
     padding: 10px;
     color: rgb(227, 226, 226);
     min-height: 200px;
-    height: auto;
+    height: fit-content;
     border-bottom-right-radius: 9px;
     border-bottom-left-radius: 9px;
     border: none;
     outline: none;
     font-size: 110%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    overflow: visible;
+    resize: none;
+    overflow: hidden;
 }
 
 .note-cl:focus {

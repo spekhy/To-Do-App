@@ -3,6 +3,8 @@ const resetButton = document.getElementById('but-reset')
 const colorChangeButton = document.getElementById('but-color-change')
 const notesList = document.getElementById('notes')
 const inNote = document.getElementById('first-note')
+let textAreaInput = document.getElementById('note')
+textAreaInput = document.querySelector('note')
 
 //kompletne pridanie nastylovaneho notu, po kliku na velke PLUS
 function addNote() {
@@ -31,3 +33,28 @@ function addNote() {
         notesList.removeChild(newNote)
     })
 }
+
+
+
+
+
+
+/*
+Array.from(document.querySelectorAll('[data-expand]'), (input) => {
+    let parent = input.newNoteInputSpace
+
+    function updateSize() {
+        parent.dataset.value = input.value
+    }
+    input.addEventListener('input', updateSize)
+    updateSize()
+})
+
+textAreaInput.addEventListener('keydown', autoSize)
+
+function autoSize() {
+    textAreaInput.style.cssText = 'height:auto; padding:0'
+    textAreaInput.style.cssText = 'height:' + textAreaInput.scrollHeight + 'px'
+}
+
+*/
